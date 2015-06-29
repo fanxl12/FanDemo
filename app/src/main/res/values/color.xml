@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name = "colorPrimary">#02A8F3</color>
+    <color name = "colorPrimaryDark">#02A8F3</color>
+    <color name = "colorAccent">#F1433C</color>
+    <color name="window_background">#FFF5F5F5</color>
+    <color name="md_white_1000">#FFFFFF</color>
+    <color name="md_light_blue_400">#29b6f6</color>
+</resources>

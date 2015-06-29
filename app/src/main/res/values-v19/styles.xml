@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name = "AppTheme" parent = "Base.AppTheme">
+        <!--这两句用于状态栏透明 实现沉浸式状态栏-->
+        <item name = "android:windowTranslucentStatus">true</item>
+        <item name = "android:windowTranslucentNavigation">false</item>
+    </style>
+</resources>
