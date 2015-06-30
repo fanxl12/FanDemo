@@ -1,0 +1,50 @@
+<LinearLayout
+        xmlns:android = "http://schemas.android.com/apk/res/android"
+        android:id = "@+id/content"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:focusable = "true"
+        android:clickable = "true"
+        android:background = "?android:selectableItemBackground"
+        android:orientation = "vertical">
+
+    <LinearLayout
+            android:orientation = "horizontal"
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content">
+
+        <TextView
+                android:id = "@+id/text"
+                android:gravity = "center_vertical"
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content"
+                android:layout_weight = "1"
+                android:minHeight = "50dp"
+                android:padding = "8dp"/>
+
+        <ImageButton
+                android:id = "@+id/more"
+                android:paddingLeft = "8dp"
+                android:paddingRight = "8dp"
+                android:layout_width = "wrap_content"
+                android:layout_height = "match_parent"
+                android:layout_gravity = "center"
+                android:background = "?android:selectableItemBackground"
+                android:src = "@mipmap/ic_more_dark"/>
+
+    </LinearLayout>
+
+
+    <TextView
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            android:id = "@+id/text1"
+            android:text = "文本内容"
+            android:padding = "8dp"
+            android:minHeight = "50dp"/>
+</LinearLayout>
+
+
+
+
+

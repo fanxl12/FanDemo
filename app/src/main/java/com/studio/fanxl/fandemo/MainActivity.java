@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
      */
     private void setupViewPager(ViewPager viewPager) {
         TabAdapter adapter = new TabAdapter(getSupportFragmentManager());
-        adapter.addFragment(TestFragment.getInstance("待办"), "待办");
+        adapter.addFragment(new MainFragment_(), "Demo功能");
         adapter.addFragment(TestFragment.getInstance("消息"), "消息");
         adapter.addFragment(TestFragment.getInstance("联系人"), "联系人");
         viewPager.setAdapter(adapter);

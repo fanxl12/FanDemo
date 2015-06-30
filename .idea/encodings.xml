@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
-    <file url="file://$PROJECT_DIR$/app/compile-libs/androidannotations-3.3.1.jar" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/app/libs/androidannotations-api-3.3.1.jar" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/drawer_background.png" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/edittext_cursor.xml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/icon.jpg" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/selectable_item_background.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/adapter_recyclerview_item.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/adapter_recyclerview_item_content.xml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_main_test.xml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout/layout_main_content.xml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout/layout_main_content_frame.xml" charset="GBK" />
