@@ -45,7 +45,7 @@ public class MainFragment extends Fragment {
 		//设置Item增加、移除动画
 		recycler_view.setItemAnimator(new DefaultItemAnimator());
 		//添加分割线
-		recycler_view.addItemDecoration(new DividerItemDecoration(getActivity(), DividerItemDecoration.HORIZONTAL_LIST));
+//		recycler_view.addItemDecoration(new DividerItemDecoration(getActivity(), DividerItemDecoration.HORIZONTAL_LIST));
 
 		initData();
 
@@ -87,6 +87,7 @@ public class MainFragment extends Fragment {
 		for (int i=size; i < size+2; i++){
 			datas.add("网络获取数据"+i);
 		}
+		recycler_view.scrollToPosition(size);
 		adapter.notifyItemInserted(size);
 		swipe_container.setRefreshing(false);
 	}
